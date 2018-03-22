@@ -1,0 +1,47 @@
+{
+    "htmlLink": "https://tuoitre.vn/giai-tri.htm",
+    "article": {
+        "htmlTag": "div",
+        "className": "block-left clearfix"
+    },
+    "Title": {
+        "parentElement": {
+            "tagName": "div",
+            "className": "block-left-info fl",
+            "index": 0
+        },
+        "tagName": "a",
+        "className": "ff-bold",
+        "index": 0
+    },
+    "Sapo": {
+        "parentElement": {
+            "tagName": "div",
+            "className": "block-left-info fl",
+            "index": 0
+        },
+        "tagName": "p",
+        "index": 0
+    },
+    "LinkDetail": {
+        "parentElement": {
+            "tagName": "div",
+            "className": "block-left-info fl",
+            "index": 0
+        },
+        "tagName": "a",
+        "attribute": "href",
+        "className": "ff-bold",
+        "index": 0
+    },
+    "Image": {
+        "parentElement": {
+            "tagName": "a",
+            "className": "img_link img_210_127 fr pos-rlt",
+            "index": 0
+        },
+        "tagName": "img",
+        "attribute": "src",
+        "index": 0
+    }
+}

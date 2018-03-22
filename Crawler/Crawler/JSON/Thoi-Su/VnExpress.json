@@ -1,0 +1,45 @@
+{
+    "htmlLink": "https://vnexpress.net/tin-tuc/the-gioi",
+    "article": {
+        "htmlTag": "article",
+        "className": "list_news"
+    },
+    "Title": {
+        "parentElement": {
+            "tagName": "h3",
+            "className": "title_news",
+            "index": 0
+        },
+        "tagName": "a",
+        "className": "",
+        "index": 0
+    },
+    "Sapo": {
+        "parentElement": {
+            "tagName": "h4",
+            "className": "description",
+            "index": 0
+        }
+    },
+    "LinkDetail": {
+        "parentElement": {
+            "tagName": "div",
+            "className": "thumb_art",
+            "index": 0
+        },
+        "tagName": "a",
+        "attribute": "href",
+        "className": "thumb thumb_5x3",
+        "index": 0
+    },
+    "Image": {
+        "parentElement": {
+            "tagName": "a",
+            "className": "thumb thumb_5x3",
+            "index": 0
+        },
+        "tagName": "img",
+        "attribute": "src",
+        "index": 0
+    }
+}
