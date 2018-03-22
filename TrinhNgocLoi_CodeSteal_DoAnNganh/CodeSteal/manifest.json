@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Code Steal",
+    "version": "1.0",
+    
+    "icons" : {
+        "16" : "logo.png"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["js/background.js"]
+    },
+    "content_scripts":[
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "js/content.js",
+                "js/classie.js",
+                "js/codeBeautify.js",
+                "js/dumpCSS.js"
+            ],
+            "css": ["css/style.css"]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "logo.png",
+   
+        "default_title": "Steal html & css code for developer"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "contextMenus",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
